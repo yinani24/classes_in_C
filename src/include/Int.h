@@ -11,7 +11,6 @@
 /// function pointers.
 typedef struct Int {
   GenericTraits *impl;
-
   int i;
 } Int;
 
