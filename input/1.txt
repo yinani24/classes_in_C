@@ -1,7 +1,7 @@
 Human
 5
-abcdefg
-e e
-aaa
-Peter
-Ada
+OtherSpecial##Characters
+Name
+DeutschSpracheIsKnownForItsLength
+42AsAName
+%s,%s,%s,%d,%u

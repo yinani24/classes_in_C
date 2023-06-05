@@ -10,6 +10,7 @@ void *new_Human(char * name){
     human->impl->dump = dump_Human;
     human->impl->drop = drop_Human;
     human->name = (char *)malloc(strlen(name) + 1);
+    // printf("name: %s\n", name);
     strcpy(human->name, name);
     return human;
 }
@@ -19,6 +20,8 @@ void dump_Human(void *self, FILE *fp){
 }
 
 int cmp_Human(void *self, void *other){
+    // printf("cmp_Human self %s\n", ((Human *)self)->name);
+    // printf("cmp_Human other %s\n", ((Human *)other)->name);
     return strcmp(((Human *)self)->name, ((Human *)other)->name);
 }
 
